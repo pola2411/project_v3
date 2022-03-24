@@ -171,6 +171,7 @@ flex-wrap: wrap;
 }
 .three_img .center_img h3{
 margin-top:10px ;
+margin-bottom: 7px;
 
 
 }
@@ -250,6 +251,8 @@ width: 30%;
 }
 .final_div .final_text a{
 text-decoration-style: none;
+text-decoration: none;
+
 
 
 }
@@ -430,6 +433,11 @@ text-decoration-style: none;
 
 
         }
+        .three_img .center_img h3{
+            margin-bottom: 4px;
+
+
+        } 
         
 
 
