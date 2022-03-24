@@ -1,0 +1,415 @@
+*{
+  margin: 0px;
+  padding: 0px;  
+
+
+
+
+}
+body{
+width: 100%;
+
+
+
+
+}
+.home{
+width: 100%;
+height: 75px;
+display:flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+position: fixed;
+top: 0px;
+   background-color: azure;
+
+}
+.home .nav{
+    width: 68%;
+    height: 100%;
+    justify-content: flex-start;
+    
+ 
+    
+ 
+
+}
+.home .nav ul  {
+    display: flex ;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+ 
+   
+    
+   
+
+
+
+}
+.home .nav ul li{
+
+margin: 20px 10px;
+list-style: none;
+text-decoration-style: none;
+
+
+
+}
+.home .nav ul li a{
+    font-size: 22px;
+    color:rgb(59, 43, 43) ;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
+
+
+
+}
+.home .nav ul li a:hover{
+background-color:rgb(202, 214, 207);
+
+
+}
+.home .nav p{
+    display: flex;
+   margin-top:5px ;
+    justify-content:flex-start;
+
+
+
+
+}
+.home .nav .bacg{
+color: rgb(158, 0, 0);
+
+}
+.home .nav .bacg:hover{
+background-color:rgb(9, 4, 47) ;
+
+}
+.home .logo{
+width: 32%;
+height: 100px;
+
+
+
+}
+.home .logo h2{
+  width: 20%; 
+  margin: 10px; 
+border: 3px  solid black;
+
+
+}
+.home .logo h2::before{
+    content: "JET";
+    color: brown;
+
+
+}
+/*end nav*/
+/*lg*/
+.img_large{
+    width: 100%;
+    height: 580px;
+    margin-top: 70px;
+
+background-image: url(./images/HomeDesktopheader.jpg);
+background-size: 100% 100%;
+
+
+
+}
+
+/*end img_large*/
+.class1{
+width: 100%;
+height: 100px;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+margin-top: 20px;
+
+
+}
+.class1 .in-img{
+width: 16.4%;
+height: 100%;
+
+
+}
+.class1 .in-img img{
+width: 100%;
+height: 100%;
+
+
+}
+/*end class1*/
+.three_img{
+width: 100%;
+height: 200px;
+background-color: rgb(250, 250, 253);
+margin-top: 12px;
+display: flex;
+justify-content:space-around;
+
+
+}
+.three_img .center_img{
+width: 25%;
+display: flex;
+
+flex-wrap: wrap;
+
+
+}
+.three_img .center_img img{
+    width: 50px;
+
+
+}
+.three_img .center_img h3{
+margin-top:10px ;
+
+
+}
+.three_img .center_img button{
+width: 20%;
+color: white;
+background-color: rgb(25, 14, 26);
+border: 3px double rgba(248, 33, 33, 0.424);
+
+
+}
+.three_img .center_img button:hover{
+background-color: rgb(28, 36, 85);
+
+
+}
+/*end tree_img */
+.line{
+    width: 100%;
+    height: 20px;
+
+display: flex;
+color: rgb(37, 18, 59);
+margin-top: 20px;
+
+
+}
+
+.line input{
+    width: 80%;
+margin-left: 10px;
+background-color: aquamarine;
+
+
+}
+/*end line*/
+.final_img{
+width:100% ;
+height:200px ;
+display: flex;
+margin-top: 20px;
+justify-content: space-between;
+
+
+
+}
+.final_img .final{
+width: 24%;
+box-shadow: 5px 5px 5px black;
+margin-left: 4px;
+text-align: center;
+
+
+}
+.final_img .final img{
+width: 100%;
+height: 70%;
+
+}
+/*end final_img */
+.final_div{
+   width: 100%;
+   height: 200px;
+  background: linear-gradient(black,rgb(22, 18, 27));
+margin-top: 20px;
+display: flex;
+color: white;
+justify-content: space-around;
+
+}
+.final_div .final_text{
+width: 30%;
+
+
+}
+.final_div .final_text a{
+text-decoration-style: none;
+
+
+}
+
+
+
+
+
+
+@media(max-width:900px){
+    body{
+        width: 100%;
+        
+        background-color: rgb(255, 255, 255);
+        
+        }
+        .home .nav ul li a{
+            font-size: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+        }
+        .home .logo h2{
+            width: 33%; 
+            padding: 3px;
+
+
+        }
+        .img_large{
+            height: 500px;
+            margin-top: 70px;
+
+
+        }
+        
+
+
+
+
+}
+/*mid*/
+@media(max-width:700px){
+    body{
+        width: 100%;
+      
+        background-color: rgb(255, 255, 255);
+        
+        }
+        .home .nav ul li a{
+            font-size: 15px;
+           margin: 0px;
+          
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+        .home .logo h2{
+            width: 35.5%; 
+            font-size: 20px;
+            padding: 2px;
+            border: 1px  solid black;
+
+        }
+        .img_large{
+            height: 500px;
+            margin-top: 45px;
+            height: 250px;
+
+
+        }
+        .class1{
+            flex-wrap:wrap ;
+            
+
+        }
+        .class1 .in-img{
+            width: 33%;
+
+
+        }
+   
+
+        .three_img{
+            margin-top: 100px;
+            height: 404px;
+
+
+        }
+        .three_img .center_img button{
+            width: 50%;
+            margin-top: 10px;
+
+
+        }
+        .line input{
+            width: 70%;
+
+
+        }
+        .final_img .final img{
+            height: 55%;
+
+
+        }
+        .final_div{
+            height: 274px;
+
+        }
+       
+        
+
+
+    
+}
+@media(max-width:500px){
+    body{
+        width: 100%;
+       
+        background-color: rgb(255, 255, 255);
+        
+        }
+        .home .nav ul li{
+            margin-top: 2px;
+            color: black;
+
+
+        }
+        .home .nav ul li a{
+            font-size: 11px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+        }
+        .home .logo h2{
+            width: 26.5%; 
+            font-size: 10px;
+            padding: 2px;
+            border: 1px  solid black;
+
+        }
+        .img_large{
+            height: 300px;
+            margin-top: 45px;
+
+
+        }
+        .line{
+            justify-content: space-between;
+
+        }
+        .line input{
+            width: 55%;
+
+
+        }
+        .final_img .final img{
+            height: 40%;
+
+        }
+        .final_div{
+            height: 405px;
+
+        }
+        
+
+
+    
+}
